@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+.container{
+    padding: auto;
+    margin: auto;
+    height: 150vh;
+    width: 150vh;
+    background-color:aqua;
+}
+.rightImg{
+    margin-left: 50vh;
+    margin-top:25vh;
+}

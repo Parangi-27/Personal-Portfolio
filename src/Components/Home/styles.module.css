@@ -2,15 +2,81 @@
     box-sizing: border-box;
     margin: auto;
     padding: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container{
-    padding: auto;
-    margin: auto;
-    height: 150vh;
-    width: 150vh;
-    background-color:aqua;
+.upperSection{
+    position: relative;
+    margin-top: -20rem;
+    background-image: url('./background.png');
+    height: 980px;
+    max-height: 100%;
+    width: 1040px;
+    max-width: 100%;
+    background-position:top;
+    z-index: 2;
 }
-.rightImg{
-    margin-left: 50vh;
-    margin-top:25vh;
+.fonts{
+    position:relative;
+    margin: 15rem; 
+    width: 18.1rem;
+    font-weight: 900;
+    top: 20rem;
+    font-size: 2.20rem;
+    color: #fff;
+}
+.fonts span{
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #30CFD0, #fff);
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.brief{
+    position:relative;
+    margin: 15rem; 
+    color: #fff;
+    font-weight: 500;
+    top: 5rem;
+    width: 18rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Image img{
+   position: relative;
+   display: flex;
+   height: 20rem;
+   width: auto;
+   z-index: 3;
+   top: -82.5rem;
+   left: 20rem;
+   margin: 35rem; 
+}
+
+@media screen and (max-width: 960px) {
+    .upperSection{
+        height: 1040px;
+        width: 800px;
+        
+        display: grid;
+    }
+    
+    .fonts{
+        position:relative;
+        margin: 15rem; 
+        width: 18.1rem;
+        font-weight: 900;
+        top: 20rem;
+        font-size: 2.25rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: linear-gradient(to right, #30CFD0, #fff);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .Image img{
+        max-width: 100%;
+        display: flex;
+        position: relative;
+     }
+
 }

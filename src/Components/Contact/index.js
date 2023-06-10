@@ -17,7 +17,7 @@ function Contact() {
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white dark:text-white">
             Contact Us
           </h2>
-          
+          <div data-aos="fade-up" data-aos-duration="1000">
           <form action="#" class="space-y-8">
             <div>
               <label
@@ -69,6 +69,7 @@ function Contact() {
                     >Send Message
                       </button>
           </form>
+          </div>
           <br/><br/><br/><br/>
         </div>
       </section>

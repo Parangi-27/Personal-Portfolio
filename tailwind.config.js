@@ -11,6 +11,7 @@ module.exports = {
       },
       colors:{
         'otherBlack': '#0b0c10', 
+        'midnight': '#040622', 
       }
     }
   }

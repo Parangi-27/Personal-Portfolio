@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../About/pcr.jpg";
+import bg from "./g.jpg";
 import { useSpring, animated } from "react-spring";
 import Navbar from "../Navbar/index";
 import { BsGithub } from "react-icons/bs";
@@ -18,9 +18,11 @@ function Banner() {
                 <h2 className="text-4xl lg:text-left text-white md:text-3xl md:text-center">
                   Hello, there! I am
                 </h2>
+                <div data-aos="fade-up" data-aos-duration="1000">
                 <h2 className=" lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 text-4xl md:text-center md:text-5xl">
                   Parangi Rathod
                 </h2>
+                  </div>
                 <p className="float-left text-lg max-w-xl mx-auto py-5 leading-7 md:text-2xl">
                   Lorem Ipsum is simply dummy text of the printing and
                 </p>

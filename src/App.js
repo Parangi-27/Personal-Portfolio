@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Animation from './Components/Animation/Animation';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
     <Banner />
     <About />
     <Skills />
+    {/* <Animation /> */}
     <Projects />
     <Contact />
     </div>

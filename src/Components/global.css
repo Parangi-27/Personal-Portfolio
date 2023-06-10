@@ -17,11 +17,11 @@
 
     /* background-color: #0b0c10; */
     /* align-items: center; */
-    /* background: radial-gradient(#1a0638,#310a4c); */
-
-
-.hello {
-    background: radial-gradient(#1a0638, #310a4c);
+    
+    
+    .hello {
+    /* background: radial-gradient(#1a0638,#0a0068); */
+    background: radial-gradient(#0a0068, #040622);
     /* background-color: skyblue; */
     /* margin-top: 50px; */
     /* padding: 5% 20px; */

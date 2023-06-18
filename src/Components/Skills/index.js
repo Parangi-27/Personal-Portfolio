@@ -20,7 +20,7 @@ function Skills() {
     <>
       {/* <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration:0.75, ease:"easeOut"}} exit={{opacity:0}}> */}
 
-      <div className="section bg-black" id="home">
+      <div className="section bg-black" id="skills">
         <div className="container mx-auto  ">
           <div className="text py-48 px-20">
             <h2 className="lg:text-sm -my-8 text-center text-white md:text-3xl">
@@ -28,7 +28,7 @@ function Skills() {
             </h2>
             <hr class="my-8 w-10 bg-gray-200 border-0 dark:bg-gray-700" />
             <h2 className="text-4xl text-center font-bold text-white md:text-3xl">
-              Tech Stack
+             Web Technologies
             </h2>
           </div>
 
@@ -39,7 +39,7 @@ function Skills() {
                   <>
                     {/* <div className="container mx-auto bg-black"> */}
                     <div className="container mb-64 flex flex-col max-w-sm ">
-                        <label className="text-2xl font-semibold text-white text-center">
+                        <label className="text-2xl font-normal text-white text-center">
                           {item.type}
                         </label>
                       <div data-aos="fade-up" data-aos-duration="1000">
@@ -61,7 +61,7 @@ function Skills() {
                   <>
                     {/* <div className="container mx-auto bg-black"> */}
                     <div className="flex mb-64 flex-col max-w-sm ">
-                      <label className="text-xl font-semibold text-white text-center">
+                      <label className="text-xl font-normal text-white text-center">
                         {item.type}
                       </label>
                     <div data-aos="fade-up" data-aos-duration="1000">
@@ -84,7 +84,7 @@ function Skills() {
                   <>
                     {/* <div className="container mx-auto bg-black"> */}
                     <div className="container mb-64  flex flex-col max-w-sm ">
-                      <label className="text-2xl font-semibold text-white text-center">
+                      <label className="text-2xl font-normal text-white text-center">
                         {item.type}
                       </label>
                     <div data-aos="fade-up" data-aos-duration="1000">

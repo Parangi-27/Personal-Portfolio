@@ -6,6 +6,8 @@ import Header from './Components/Header';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Timeline from './Components/Timeline/Timeline';
+import Footer from './Components/Footer/index';
 import Animation from './Components/Animation/Animation';
 function App() {
   return (
@@ -15,10 +17,12 @@ function App() {
     <Header />
     <Banner />
     <About />
+    <Timeline />
     <Skills />
     {/* <Animation /> */}
     <Projects />
     <Contact />
+    {/* <Footer/> */}
     </div>
     
     {/* <Navbar></Navbar> */}

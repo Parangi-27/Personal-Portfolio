@@ -15,7 +15,7 @@ function Projects() {
 
   const extraContent = (
     <div>
-      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400" id="project">
         This application that allows students to book medical appointments
         across India for their visa application process. Streamlined the
         document upload process by integrating a user-friendly interface and
@@ -70,7 +70,7 @@ function Projects() {
                       with nearest hospital recommendations.
                     </p>
                     <a
-                      href="#"
+                      href="https://github.com/Parangi-27/MediVisa"
                       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-black border border-teal-400 text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                       Github
@@ -120,7 +120,7 @@ function Projects() {
                     </p>
                     <br />
                     <a
-                      href="#"
+                      href="https://github.com/Parangi-27/DDU-EventRegistO"
                       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-black border border-teal-400 text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                       Github
@@ -159,7 +159,7 @@ function Projects() {
                       problem-solving.
                     </p>
                     <a
-                      href="#"
+                      href="https://github.com/Parangi-27/University-Complaint-System"
                       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-black border border-teal-400 text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                       Github
@@ -186,7 +186,7 @@ function Projects() {
 
                   <div class="p-5">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-400 dark:text-white">
-                      Khatabook | MERN Stack
+                      BookWise | ASP.NET MVC
                     </h5>
 
                      <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">
@@ -198,7 +198,7 @@ function Projects() {
                     </p> 
                     <br />
                     <a
-                      href="#"
+                      href="https://github.com/Parangi-27/Online-Credit-Account-MS"
                       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-black border border-teal-400 text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                       Github
@@ -221,6 +221,45 @@ function Projects() {
               </div>
               <div data-aos="fade-up-right" data-aos-duration="1000">
                 <div class="max-w-md bg-black border border-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                  <img class="-my-10" src={p6} alt="" />
+
+                  <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-400 dark:text-white">
+                      Online Credit Account MS | MERN Stack
+                    </h5>
+
+                     <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">
+                      The web-based application you described aims to provide
+                      users with a comprehensive tool to manage their credit
+                      accounts and expenses effectively while working towards
+                      their monthly goals.
+                      Additionally, this is also expense tracker.
+                    </p> 
+                    <br />
+                    <a
+                      href="https://github.com/Parangi-27/Online-Credit-Account-MS"
+                      class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-black border border-teal-400 text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Github
+                      <svg
+                        aria-hidden="true"
+                        class="w-4 h-4 ml-2 -mr-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up-left" data-aos-duration="1000">
+                <div class="max-w-md bg-black border border-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <img class="-my-12" src={p5} alt="" />
 
                   <div class="p-5">
@@ -235,7 +274,7 @@ function Projects() {
                     </p>
                     <br />
                     <a
-                      href="#"
+                      href="https://github.com/Parangi-27/Simple-Games"
                       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-black border border-teal-400 text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                       Github

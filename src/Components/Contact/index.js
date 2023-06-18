@@ -1,24 +1,31 @@
-import React from "react";
-import bg from "../About/pcr.jpg";
-import { useSpring, animated } from "react-spring";
-import Navbar from "../Navbar/index";
-import { BsGithub } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
-import Button from "../Button/button";
+import React, {useRef} from "react";
+import emailjs from '@emailjs/browser';
 import "../global.css";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_o9mb7it', 'template_2mrlwzr', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <>
       {/* <div className="section bg-black" id="home"> */}
-      <section class="bg-black dark:bg-gray-900">
+      <section class="bg-black dark:bg-gray-900" id="contact">
         <br/><br/>
         <div class="py-8 mt-12 lg:py-16 px-4 mx-auto max-w-screen-sm">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white dark:text-white">
-            Contact Us
+            Contact Me
           </h2>
           <div data-aos="fade-up" data-aos-duration="1000">
-          <form action="#" class="space-y-8">
+          <form ref={form} class="space-y-8">
             <div>
               <label
                 for="email"
@@ -30,7 +37,7 @@ function Contact() {
                 type="email"
                 id="email"
                 class="shadow-sm bg-black border border-gray-800 text-gray-100 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="name@flowbite.com"
+                placeholder="youremail@xyz.com"
                 required
               />
             </div>
@@ -45,7 +52,7 @@ function Contact() {
                 type="text"
                 id="subject"
                 class="block p-3 bg-black w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-800 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="Let us know how we can help you"
+                placeholder="Let us know how I can help you"
                 required
               />
             </div>

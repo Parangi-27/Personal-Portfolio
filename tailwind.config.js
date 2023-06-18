@@ -7,7 +7,7 @@ module.exports = {
         '2080px': '2080px',
       },
       height: {
-        '128': '32rem',
+        '128': '22rem',
       },
       colors:{
         'otherBlack': '#0b0c10', 

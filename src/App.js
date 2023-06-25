@@ -14,7 +14,7 @@ function App() {
     <>
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
     <Navbar />
-    <Header />
+    {/* <Header /> */}
     <Banner />
     <About />
     <Timeline />
@@ -22,10 +22,8 @@ function App() {
     {/* <Animation /> */}
     <Projects />
     <Contact />
-    {/* <Footer/> */}
     </div>
-    
-    {/* <Navbar></Navbar> */}
+  
     </>
   );
 }

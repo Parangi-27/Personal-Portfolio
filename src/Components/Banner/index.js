@@ -7,6 +7,20 @@ import { SiLinkedin } from "react-icons/si";
 import "../global.css";
 
 function Banner() {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Parangi_Rathod_Resume.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Parangi_Rathod_Resume.pdf';
+            alink.click();
+        })
+    })
+}
   return (
     <>
       <div className="section hello" id="home">
@@ -27,7 +41,7 @@ function Banner() {
                 </p>
               </div>
               <a
-                      href="#"
+                      onClick={onButtonClick}
                       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center border bg-black border-black text-white hover:text-black hover:bg-teal-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >Download CV
               </a><br/><br/>

@@ -32,7 +32,7 @@ function Skills() {
             </h2>
           </div>
 
-          <div className="flex -mt-20 mb-48 lg:flex-row flex-col">
+          <div className="flex -mt-20 md:mb-32 lg:flex-row flex-col">
             <div>
               {data.map((item) => {
                 return (

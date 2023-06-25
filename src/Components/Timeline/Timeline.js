@@ -34,10 +34,10 @@ function Timeline() {
               <div className="col-span-4 w-full h-full ">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <div className="max-w-md h-full bg-black border border-gray-800 rounded-md p-2 md:pl-4">
-                  <h1 className="text-gray-400 text-xl font-medium py-2">
-                    GURUKUL
+                  <h1 className="text-gray-200 lg:text-xl text-md font-medium py-2">
+                    Gurukul
                   </h1>
-                  <h1 className="text-gray-400 text-md font-medium py-2">
+                  <h1 className="text-gray-400 text-sm font-medium py-2">
                     2016-2018
                   </h1>
                   <p className="text-gray-600 sm:text-sm text-xs">
@@ -65,14 +65,14 @@ function Timeline() {
               <div className="col-span-4 w-full h-full ">
               <div data-aos="fade-up" data-aos-duration="1500">
                 <div className="w-full h-full bg-black border border-gray-800 float-right rounded-md p-2 md:pl-4">
-                  <h1 className="text-gray-400 text-xl font-medium py-2">
-                    GYANMANJARI VIDYAPITH
+                <h1 className="text-gray-200 lg:text-xl text-md font-medium py-2">
+                    Gyanmanjari Vidyapith
                   </h1>
-                  <h1 className="text-gray-400 text-md font-medium py-2">
+                  <h1 className="text-gray-400 text-sm font-medium py-2">
                     2018-2020
                   </h1>
                   <p className="text-gray-600 sm:text-sm text-xs">
-                    Class XII(GSEB-HSC) 97.86%tile<br/> Class XII(Gujcet)
+                  Class XII(GSEB-HSC) 97.86%tile<br/> Class XII(Gujcet)
                     97.49%tile
                   </p>
                 </div>
@@ -82,10 +82,10 @@ function Timeline() {
               <div className="col-span-4 w-full h-full ">
               <div data-aos="fade-up" data-aos-duration="2000">
                 <div className="max-w-md h-full bg-black border border-gray-800 rounded-md p-2 md:pl-4">
-                  <h1 className="text-gray-400 text-xl font-medium py-2">
+                <h1 className="text-gray-200 lg:text-xl text-md font-medium py-2">
                     Dharmsinh Desai University
                   </h1>
-                  <h1 className="text-gray-400 text-md font-medium py-2">
+                  <h1 className="text-gray-400 text-sm font-medium py-2">
                     2020-2024
                   </h1>
                   <p className="text-gray-600 sm:text-sm text-xs">

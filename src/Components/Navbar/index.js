@@ -11,10 +11,8 @@ import "../global.css";
 function navbar() {
   return (
     <>
-       <nav className="fixed bottom-0 mb-8 lg:bottom-8 w-full overflow-hidden z-50">
+       <nav className="fixed bottom-0 mb-2 lg:bottom-8 w-full overflow-hidden z-50">
         <div className="container mx-auto mb-3">
-
-          {/* <div className="grid filter-backdrop backdrop-blur-sm bg-black/20 grid-cols-6 w-auto h-12 rounded-full border-2 border-teal-400 max-w-lg mx-auto"> */}
             <div className="w-full bg-black bg-opacity-75 h-12 rounded-full max-w-md mx-auto px-5 flex justify-between text-2xl border border-teal-400">
               <a href="#home"
               className="cursor-pointer inline-flex flex-col items-center justify-center px-5 group"
@@ -56,7 +54,7 @@ function navbar() {
               />
             </a>
             <a
-              to="projects"
+              to="project"
               className="cursor-pointer inline-flex flex-col items-center justify-center px-5 group"
             >
               <AiOutlineFundProjectionScreen

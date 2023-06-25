@@ -40,7 +40,7 @@ function Projects() {
     <>
       <div
         className="section hello -my-10 lg:-my-24 transform skew-y-3 w-full "
-        id="about"
+        id="project"
       >
         <div className="container transform -skew-y-3  mx-auto ">
           <div className="text py-16 px-20 items-center">
